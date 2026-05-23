@@ -1,0 +1,6 @@
+{
+  "name": "Old Skool Fitness",
+  "description": "Hardcore iron-and-sweat gym app for targeting specific muscle groups, tracking workouts, and guided visual tutorials by Lead Trainer Tanni Saini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

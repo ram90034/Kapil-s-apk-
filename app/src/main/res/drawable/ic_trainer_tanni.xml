@@ -1,0 +1,120 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Stylized Background Circle -->
+    <path
+        android:fillColor="#1F1F1F"
+        android:pathData="M 100,10 A 90,90 0,1,1 99.9,10 Z" />
+
+    <!-- Dark aesthetic inner ring boundary -->
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M 100,15 A 85,85 0,1,1 99.9,15 Z" />
+
+    <!-- Long Dark Hair Back Layer (Flowing behind shoulders) -->
+    <path
+        android:fillColor="#151515"
+        android:pathData="M 78,65 Q 60,95 62,125 Q 70,140 80,125 L 80,80 Z" />
+    <path
+        android:fillColor="#151515"
+        android:pathData="M 122,65 Q 140,95 138,125 Q 130,140 120,125 L 120,80 Z" />
+
+    <!-- Muscular Torso & Shoulders (Skin Tone: Golden Tan #D79A62) -->
+    <!-- Shoulders & Chest -->
+    <path
+        android:fillColor="#D79A62"
+        android:pathData="M 70,115 C 50,115 45,130 45,145 C 45,160 55,165 65,165 L 135,165 C 145,165 155,160 155,145 C 155,130 150,115 130,115 Z" />
+
+    <!-- Highly defined Neck -->
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 88,85 L 112,85 L 115,115 L 85,115 Z" />
+
+    <!-- Face (Golden Tan) -->
+    <path
+        android:fillColor="#D79A62"
+        android:pathData="M 82,50 C 82,40 118,40 118,50 L 118,85 C 118,98 82,98 82,85 Z" />
+
+    <!-- Lavender Bandana / Headband (#7E57C2 with white diamond-shaped accents) -->
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M 81,48 C 81,42 119,42 119,48 L 119,58 C 119,58 100,56 81,58 Z" />
+    <!-- Bandana knot details on the side -->
+    <path
+        android:fillColor="#5E35B1"
+        android:pathData="M 119,53 Q 128,51 126,59 Q 119,57 119,53 Z" />
+
+    <!-- Rich Black Hair Foreground (Framing the face and headband) -->
+    <path
+        android:fillColor="#1A1A1A"
+        android:pathData="M 81,48 C 86,30 114,30 119,48 C 122,58 122,78 120,95 C 115,90 117,70 115,62 C 105,62 100,60 85,62 C 83,70 85,90 80,95 C 78,78 78,58 81,48 Z" />
+
+    <!-- Thick Beard & Mustache (#1A1A1A) -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 82,75 Q 82,96 100,102 Q 118,96 118,75 L 114,75 Q 114,92 100,97 Q 86,92 86,75 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 88,74 Q 100,79 112,74 Q 100,81 88,74 Z" />
+
+    <!-- Chest Muscle (Pectoral Group Linework / Shadows) -->
+    <!-- Left Pec -->
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 72,122 C 72,122 88,124 100,126 L 100,146 C 88,144 72,136 72,122 Z" />
+    <!-- Right Pec -->
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 128,122 C 128,122 112,124 100,126 L 100,146 C 112,144 128,136 128,122 Z" />
+
+    <!-- Biceps & Forearms in dynamic flexed pose (Hands clasped front abs) -->
+    <!-- Left Bicep & Arm -->
+    <path
+        android:fillColor="#D79A62"
+        android:pathData="M 45,142 Q 35,148 40,165 Q 48,180 65,182 L 80,182 Q 72,168 62,158 Z" />
+    <!-- Right Bicep & Arm -->
+    <path
+        android:fillColor="#D79A62"
+        android:pathData="M 155,142 Q 165,148 160,165 Q 152,180 135,182 L 120,182 Q 128,168 138,158 Z" />
+
+    <!-- Grey Wristbands / Wraps (#5E6A75) -->
+    <path
+        android:fillColor="#5E6A75"
+        android:pathData="M 68,172 L 78,175 L 75,182 L 65,179 Z" />
+    <path
+        android:fillColor="#5E6A75"
+        android:pathData="M 132,172 L 122,175 L 125,182 L 135,179 Z" />
+
+    <!-- Clasped Hands in Center -->
+    <path
+        android:fillColor="#D79A62"
+        android:pathData="M 88,178 H 112 V 188 H 88 Z" />
+
+    <!-- Six-pack Abdominal definition -->
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 91,152 H 109 V 155 H 91 Z" />
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 91,158 H 109 V 161 H 91 Z" />
+    <path
+        android:fillColor="#C68953"
+        android:pathData="M 91,164 H 109 V 167 H 91 Z" />
+
+    <!-- Solid Gold Neck Chain (#FFD54F) -->
+    <path
+        android:strokeColor="#FFC107"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000"
+        android:pathData="M 87,88 C 87,105 113,105 113,88" />
+    <!-- Small pendant design center on chain -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 98,99 L 102,99 L 100,104 Z" />
+
+</vector>

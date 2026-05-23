@@ -1,0 +1,144 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Deep Red Smoky Background Circle to match user's image -->
+    <path
+        android:fillColor="#1A0D0D"
+        android:pathData="M 100,10 A 90,90 0,1,1 99.9,10 Z" />
+
+    <!-- Red ring boundary -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000"
+        android:pathData="M 100,15 A 85,85 0,1,1 99.9,15 Z" />
+
+    <!-- Soft red aura behind the head / shoulders -->
+    <path
+        android:fillColor="#3D1212"
+        android:pathData="M 100,45 A 50,50 0,1,1 99.9,45 Z" />
+
+    <!-- TIGHT FLEXED BACK BACKDROP (Hair) -->
+    <!-- Beautiful short dark combed-back/styled hair (Black/extremely dark grey) -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 76,50 C 76,35 124,35 124,50 Q 125,65 110,65 L 90,65 Q 75,65 76,50 Z" />
+
+    <!-- Muscular Neck & Golden-Tan Skin Tone (#D89D6C) -->
+    <path
+        android:fillColor="#C18553"
+        android:pathData="M 86,95 L 114,95 L 118,125 L 82,125 Z" />
+    <!-- Neck shadows / traps -->
+    <path
+        android:fillColor="#AB7240"
+        android:pathData="M 86,105 L 114,105 L 116,125 L 84,125 Z" />
+
+    <!-- Face (Golden-Tan) -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 78,60 C 78,48 122,48 122,60 L 122,95 C 122,108 78,108 78,95 Z" />
+
+    <!-- Short Combed-Back Hair Front Layer Detail -->
+    <path
+        android:fillColor="#1F1F1F"
+        android:pathData="M 77,55 Q 100,42 123,55 C 125,62 121,68 116,68 Q 100,60 84,68 C 79,68 76,62 77,55 Z" />
+    <!-- Sideburns -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 78,68 L 81,80 H 77 Z" />
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 122,68 L 119,80 H 123 Z" />
+
+    <!-- Facial Features: Clean, modern eyebrows/eyes/nose/lips mapping -->
+    <!-- Left Eyebrow -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 84,72 Q 91,69 95,73 L 94,75 Q 91,72 85,74 Z" />
+    <!-- Right Eyebrow -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 116,72 Q 109,69 105,73 L 106,75 Q 109,72 115,74 Z" />
+    <!-- Mustache / Stubble line shadow -->
+    <path
+        android:fillColor="#C18553"
+        android:pathData="M 94,88 Q 100,92 106,88 Q 100,96 94,88 Z" />
+
+    <!-- DOUBLE FRONT BICEPS FLEXED POSE -->
+    <!-- Chest, Shoulders, and Arms flexing big -->
+    <!-- Highly developed Triceps, Biceps & Shoulders -->
+    <!-- Golden skin tone: #D89D6C. Shadows: #C18553 -->
+
+    <!-- Left Arm & Bicep (Flexing up at Left 20-65px, height 100-170px) -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 40,140 Q 20,110 32,95 C 44,80 62,94 65,115 L 75,124 Q 63,142 40,140 Z" />
+    <!-- Left Forearm flexing inward -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 32,95 L 48,70 C 55,58 72,62 70,72 L 65,100 Z" />
+    <!-- Left Fist clenched at top-left -->
+    <path
+        android:fillColor="#C18553"
+        android:pathData="M 48,70 Q 56,58 64,68 L 56,76 Z" />
+
+    <!-- Right Arm & Bicep (Flexing up at Right 135-180px, height 100-170px) -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 160,140 Q 180,110 168,95 C 156,80 138,94 135,115 L 125,124 Q 137,142 160,140 Z" />
+    <!-- Right Forearm flexing inward -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 168,95 L 152,70 C 145,58 128,62 130,72 L 135,100 Z" />
+    <!-- Right Fist clenched at top-right -->
+    <path
+        android:fillColor="#C18553"
+        android:pathData="M 152,70 Q 144,58 136,68 L 144,76 Z" />
+
+    <!-- Smartwatch detail on right wrist (representing the wear in Kapil's image!) -->
+    <path
+        android:fillColor="#111111"
+        android:pathData="M 155,73 H 165 V 79 H 155 Z" />
+    <path
+        android:fillColor="#555555"
+        android:pathData="M 157,75 H 163 V 77 H 157 Z" />
+
+    <!-- Torso (Wearing Maroon Tank Top / Singlet #880E4F / #4A0E17) -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 68,135 C 68,125 132,125 132,135 L 145,190 H 55 Z" />
+
+    <!-- Maroon Singlet Fabric -->
+    <path
+        android:fillColor="#4A148C"
+        android:pathData="M 72,145 C 72,135 128,135 128,145 L 136,190 H 64 Z" />
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M 76,148 C 76,140 124,140 124,148 L 132,190 H 68 Z" />
+
+    <!-- Black singlet straps / borders -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 72,145 L 78,143 L 83,165 Q 77,165 75,155 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 128,145 L 122,143 L 117,165 Q 123,165 125,155 Z" />
+
+    <!-- Highly defined shoulder curves and collarbones -->
+    <path
+        android:strokeColor="#C18553"
+        android:strokeWidth="2.5"
+        android:pathData="M 68,135 L 85,130 M 132,135 L 115,130" />
+
+    <!-- Chest highlights for incredible definition of pecs -->
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 85,135 C 85,135 95,137 100,138 L 100,147 C 95,145 85,140 85,135 Z" />
+    <path
+        android:fillColor="#D89D6C"
+        android:pathData="M 115,135 C 115,135 105,137 100,138 L 100,147 C 105,145 115,140 115,135 Z" />
+
+</vector>

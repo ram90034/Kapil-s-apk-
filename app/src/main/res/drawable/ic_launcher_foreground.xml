@@ -1,0 +1,84 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Premium Gold Circle Crest Frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3"
+        android:pathData="M 54, 12 A 42 42 0 1 1 53.9 12 Z" />
+
+    <!-- Outer Kettlebell Handle Arch integrated into the outer circle -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M 38,42 C 38,26 70,26 70,42 L 64,42 C 64,32 44,32 44,42 Z" />
+
+    <!-- Solid Gold Kettlebell Base Body -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 32,45 L 76,45 C 81,45 83,76 54,80 C 25,76 27,45 32,45 Z" />
+
+    <!-- Shadow overlay inside Kettlebell to give depth -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M 35,48 L 73,48 C 77,48 78,73 54,77 C 30,73 31,48 35,48 Z" />
+
+    <!-- Center Barbell Shaft -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M 16, 52 H 92 V 58 H 16 Z" />
+
+    <!-- Left Weight Plates (Golden Heavy Iron) -->
+    <!-- Outer Smallest -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 19, 44 H 23 V 66 H 19 Z" />
+    <!-- Medium Plate -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 25, 38 H 30 V 72 H 25 Z" />
+    <!-- Huge Inner Plate -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M 32, 34 H 38 V 76 H 32 Z" />
+
+    <!-- Right Weight Plates (Golden Heavy Iron) -->
+    <!-- Huge Inner Plate -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M 70, 34 H 76 V 76 H 70 Z" />
+    <!-- Medium Plate -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 78, 38 H 83 V 72 H 78 Z" />
+    <!-- Outer Smallest -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 85, 44 H 89 V 66 H 85 Z" />
+
+    <!-- Premium Stars in the Upper Center Arch of the Kettlebell Shield -->
+    <!-- Left Star (under the arch) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M 44, 38.5 L 45.2, 41 L 48, 41.2 L 45.8, 43 L 46.5, 45.8 L 44, 44.3 L 41.5, 45.8 L 42.2, 43 L 40, 41.2 L 42.8, 41 Z" />
+    <!-- Middle Star (bold, larger, centered) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M 54, 34 L 55.5, 37 L 59, 37.2 L 56.3, 39.5 L 57.2, 43 L 54, 41.1 L 50.8, 43 L 51.7, 39.5 L 49, 37.2 L 52.5, 37 Z" />
+    <!-- Right Star (under the arch) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M 64, 38.5 L 65.2, 41 L 68, 41.2 L 65.8, 43 L 66.5, 45.8 L 64, 44.3 L 61.5, 45.8 L 62.2, 43 L 60, 41.2 L 62.8, 41 Z" />
+
+    <!-- Dynamic Old School Emblem lines on kettlebell to emulate gold crest -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 40, 64 H 68 V 66 H 40 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 43, 69 H 65 V 71 H 43 Z" />
+
+</vector>
